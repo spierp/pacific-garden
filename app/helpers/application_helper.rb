@@ -1,6 +1,6 @@
 module ApplicationHelper
   def full_title(page_title)
-    base_title = 'Spier Template'
+    base_title = 'Pacific Garden'
     if page_title.empty?
       base_title
     else  
