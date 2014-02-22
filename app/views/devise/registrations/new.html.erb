@@ -12,7 +12,28 @@
   <div><%= f.label :password_confirmation %><br />
   <%= f.password_field :password_confirmation %></div>
 
-  <div><%= f.submit "Sign up" %></div>
+  <%= f.submit "Sign up", class: "btn btn-lg btn-primary", id: "submitbtn" %>
 <% end %>
 
 <%= render "devise/shared/links" %>
+
+<script type="text/javascript">
+    $(function () {
+        $("#submitbtn").click(function () {
+            $("#loading").fadeIn();
+            var opts = {
+                lines: 15, // The number of lines to draw
+                length: 27, // The length of each line
+                width: 5, // The line thickness
+                radius: 20, // The radius of the inner circle
+                color: '#000', // #rgb or #rrggbb
+                speed: 1, // Rounds per second
+                trail: 60, // Afterglow percentage
+                shadow: false, // Whether to render a shadow
+                hwaccel: false // Whether to use hardware acceleration
+            };
+            var target = document.getElementById('loading');
+            var spinner = new Spinner(opts).spin(target);
+        });
+    });
+</script>

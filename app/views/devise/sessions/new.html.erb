@@ -166,7 +166,7 @@ body {
 					<% if devise_mapping.rememberable? -%>
 					    <div style="float:left"><%= f.check_box :remember_me %> <%= f.label :remember_me, style: "font-size:14px !important" %></div>
 					<% end -%>
-				<%= f.submit "Sign in", class: "btn btn-lg btn-primary btn-block" %>	
+				<%= f.submit "Sign in", class: "btn btn-lg btn-primary btn-block", id: "submitbtn" %>	
 
 
 			<% end %>
@@ -180,3 +180,24 @@ body {
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#submitbtn").click(function () {
+            $("#loading").fadeIn();
+            var opts = {
+                lines: 15, // The number of lines to draw
+                length: 27, // The length of each line
+                width: 5, // The line thickness
+                radius: 20, // The radius of the inner circle
+                color: '#000', // #rgb or #rrggbb
+                speed: 1, // Rounds per second
+                trail: 60, // Afterglow percentage
+                shadow: false, // Whether to render a shadow
+                hwaccel: false // Whether to use hardware acceleration
+            };
+            var target = document.getElementById('loading');
+            var spinner = new Spinner(opts).spin(target);
+        });
+    });
+</script>
