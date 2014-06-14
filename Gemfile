@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
+ruby "2.1.2"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
-ruby "2.1.2"
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 1.2'
 
 #heroku compatability
  gem 'rails_12factor', group: :production
-# gem 'pg', group: :production
+ gem 'pg', group: :production
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
