@@ -1,0 +1,63 @@
+!app/assets/images/100years.jpg(HDCCo)!
+
+h1. "HDCCo Special Projects - Daily Reporting System":http://jobsite.hdspecialprojects.com.
+
+h6. Version 0.65 (beta)
+-
+
+h3. Maintaining a centralized log of companywide field activities.  Making our data a strategic asset through cloud-based information management.
+-
+
+h4. Web application is proprietary software developed 100% in-house to meet our  specific needs.  See section "Under the Hood" below for technical details.
+
+h5. Please see ******** for our associated iOS client application.
+
+-
+
+h4. Overview
+
+* We should keep close and consistent track of daily jobsite activities for safety, compliance, and because it's fun.  
+* There are data gold mines buried among our company's most basic operations that could help us outperform the competition.
+* This data needs to be discovered and treated as a strategic asset. 
+* Current internal systems do not adequately mine, interpret, or present data to provide an analytical edge.
+* We can realize a competitive advantage in analytics by actively organizing project and trade specific information: 
+** with what!?
+** and what!?
+
+h2. Deployment:
+
+* Heroku cedar stack. "More":https://devcenter.heroku.com/articles/cedar. 
+* Currently 1 web dyno. Should ramp up to 2 before shipping. 
+// maybe? * 100% "SSL encrypted":http://en.wikipedia.org/wiki/Secure_Sockets_Layer with Heroku SSL Endpoint. "More":https://devcenter.heroku.com/articles/ssl-endpoint.
+* "New Relic":http://newrelic.com/ Application Monitoring.
+* "Google Web Analytics":http://www.google.com/analytics/
+
+h5. Git Version Control. "More":http://en.wikipedia.org/wiki/Git_(software)
+-
+
+h2. Under the Hood:
+
+h5. Rails 3.2.11
+* Built using "Ruby on Rails":http://en.wikipedia.org/wiki/Ruby_on_Rails, or "Rails" for short.  
+
+h5. Database
+* "PostgreSQL":http://en.wikipedia.org/wiki/PostgreSQL object-relational database.
+* "Carrierwave":https://github.com/jnicklas/carrierwave and "Fog":https://github.com/fog/fog cloud storage on "Amazon S3 servers":http://en.wikipedia.org/wiki/Amazon_S3.
+** Wholesale pricing on enterprise grade redundant/secure cloud data storage by uploading directly to Amazon's S3 datacenter in Oregon.
+
+h5. Gems
+* "Devise":https://github.com/plataformatec/devise user authentication.
+* "Twitter Bootstrap":http://twitter.github.com/bootstrap/ front-end framework for CSS styling with added "SASS":http://sass-lang.com/ functionality.  
+* "RMagick":https://github.com/rmagick/rmagick image processing.  
+* "Geocorder":https://github.com/alexreisner/geocoder/ map generation.
+
+h6.  Known bugs/issues  
+* Labor tables
+
+h6.  Wishlist
+* assign projects as "active" or "complete"
+* Assign project office: "San Francisco" "Santa Clara " "Los Angeles"
+* associate users with offices
+* Export direct work and subcontractor manpower metrics to excel (includes milestones)
+* Simple and secure API
+* iOS client application
