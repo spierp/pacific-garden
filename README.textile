@@ -37,7 +37,7 @@ h5. Git Version Control. "More":http://en.wikipedia.org/wiki/Git_(software)
 
 h2. Under the Hood:
 
-h5. Rails 3.2.11
+h5. Rails 4.1.0
 * Built using "Ruby on Rails":http://en.wikipedia.org/wiki/Ruby_on_Rails, or "Rails" for short.  
 
 h5. Database
@@ -47,7 +47,7 @@ h5. Database
 
 h5. Gems
 * "Devise":https://github.com/plataformatec/devise user authentication.
-* "Twitter Bootstrap":http://twitter.github.com/bootstrap/ front-end framework for CSS styling with added "SASS":http://sass-lang.com/ functionality.  
+* "Twitter Bootstrap 3.1.1":http://twitter.github.com/bootstrap/ front-end framework for CSS styling with added "SASS":http://sass-lang.com/ functionality.  
 * "RMagick":https://github.com/rmagick/rmagick image processing.  
 * "Geocorder":https://github.com/alexreisner/geocoder/ map generation.
 
