@@ -2,7 +2,8 @@ class TestsController < ApplicationController
   before_filter :authenticate_user!
   
   def index
-    @tests = Test.all
+    
+#    @tests = Test.all
   end
 
   def new
