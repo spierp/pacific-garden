@@ -11,16 +11,6 @@
 		<div class="col-md-10">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		<% if signed_in? %>
-		<%= current_user.first_name %>
-		<%= current_user.email %>
-			<% if current_user.image? %>
-			<%= image_tag(current_user.image_url(:tiny), :width => 34, :height => 34, :style => "background:white;padding:2px; margin:0px").to_s %>
-			<% else %>
-			image!
-			<%#= image_tag('user.png', :width => 34, :height => 34, :style => "background:white;padding:2px; margin:0px").to_s %>
-			<% end %>
-		<% end %>
 		<div class="col-md-2">
 			<span class="glyphicon glyphicon-fire" style="color:#008cba;font-size:5em"</span>
 		</div>
