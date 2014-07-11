@@ -11,26 +11,23 @@
 	          <a class="navbar-brand" href="#">Pacific Garden</a>
 	        </div>
 	        <div class="navbar-collapse collapse">
-	          <ul class="nav navbar-nav">
-	            <li class="active"><a href="#">Home</a></li>
-	            <li><a href="#about">About</a></li>
-	            <li><a href="#contact">Contact</a></li>
-	            <li class="dropdown">
+	          <ul class="nav navbar-nav navbar-right">
+				<% if signed_in? %>
+				<li class="dropdown 2">
 	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 	                <li><a href="#">Action</a></li>
 	                <li><a href="#">Another action</a></li>
 	                <li><a href="#">Something else here</a></li>
 	                <li class="divider"></li>
-	                <li class="dropdown-header">Nav header</li>
-	                <li><a href="#">Separated link</a></li>
-	                <li><a href="#">One more separated link</a></li>
+	                <li class="dropdown-header">User Settings</li>
+					<li><%= link_to '<i class="glyphicon glyphicon-cog"></i> Settings'.html_safe, edit_user_registration_path %><li>
+					<li><%= link_to '<i class="glyphicon glyphicon-off"></i> Sign Out'.html_safe, destroy_user_session_path, method: :delete %><li>
 	              </ul>
 	            </li>
-	          </ul>
-	          <ul class="nav navbar-nav navbar-right">
-	            <li><a href="#">Right Aligned</a></li>
-	            <li class="active"><a href="#">Active Tab</a></li>
+				<% else %>
+				<li><%= link_to '<i class="glyphicon glyphicon-off"></i> Sign In'.html_safe, new_user_session_path %></li>
+				<% end %>	
 	          </ul>
 	        </div><!--/.nav-collapse -->
 	      </div>

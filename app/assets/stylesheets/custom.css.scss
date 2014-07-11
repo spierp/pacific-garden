@@ -21,3 +21,9 @@
 	@extend .control-group;
 	@extend .error !optional;
 }
+
+.alert {
+	margin-bottom: 0px;
+	font-style: bold;
+}
+	
