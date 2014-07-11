@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_filter :authenticate_user!
-  attr_accessible :first_name, :last_name, :image
+
   
   def index
     if current_user.admin?
@@ -19,15 +19,6 @@ class UsersController < ApplicationController
     flash[:success] = "User deleted"
     redirect_to users_path
   end
-  
-  def create
-    User.create(user_params)
-  end
-  
-  def user_params
-    params.require(:user).permit(:first_name, :last_name, :image)
-  end
-  
   
 end
   
