@@ -8,14 +8,14 @@
 /.bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
+db/*.sqlite3
 
 # Ignore all logfiles and tempfiles.
-/log/*.log
-/tmp
+log/*.log
+tmp
 .DS_Store
 server.key
 server.pass.key
 server.crt
 
-/public/uploads
+public/uploads
