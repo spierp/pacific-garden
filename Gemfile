@@ -36,7 +36,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 # Image upload handling
-gem "carrierwave", '0.9.0'
+gem "carrierwave"#, '0.9.0'
 gem "rmagick"
 gem 'fog'
 
