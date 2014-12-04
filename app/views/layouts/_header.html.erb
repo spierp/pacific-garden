@@ -16,10 +16,11 @@
 				<li class="dropdown 2">
 	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 					<% if current_user.image? %>
-					<%= image_tag(current_user.image_url(:tiny), :width => 34, :height => 34, :style => "background:lightgrey;padding:2px; margin:0px").to_s %>
+					<%= image_tag(current_user.image_url(:tiny), :width => 19, :height => 19, :style => "background:lightgrey;padding:1px; margin:0px 2px 0px 0px;").to_s %>
 					<% else %>
-					<%= image_tag('user.jpg', :width => 34, :height => 34, :style => "background:lightgrey;padding:2px; margin:0px").to_s %>
+					<%= image_tag('user.jpg', :width => 19, :height => 19, :style => "background:lightgrey;padding:1px; margin:0px 2px 0px 0px").to_s %>
 					<% end %>
+					<%= current_user.first_name %>
 					<b class="caret"></b></a>
 	              <ul class="dropdown-menu">
 	                <li><a href="#">Action</a></li>
