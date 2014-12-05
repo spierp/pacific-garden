@@ -15,8 +15,8 @@ gem 'bootstrap-sass', '~> 3.1.1'
 gem 'uglifier', '>= 1.3.0'
 
 # Users
-gem 'devise',  '3.2.4'
-gem 'devise_invitable', '1.3.5'
+gem 'devise'#,  '3.2.4'
+gem 'devise_invitable'#, '1.3.5'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'

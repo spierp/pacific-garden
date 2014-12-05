@@ -3,7 +3,7 @@ CarrierWave.configure do |config|
     :provider               => 'AWS',       # required
     :aws_access_key_id      => 'AKIAINILF5RCP4GU5E6A',       # required
     :aws_secret_access_key  => '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',       # required
-#    :region                 => 'us-west-2'  # optional, defaults to 'us-east-1'
+    :region                 => 'us-west-1'  # optional, defaults to 'us-east-1'
   }
   config.fog_directory  = 'hdccojobsite'                     # required
 #  config.fog_public     = false

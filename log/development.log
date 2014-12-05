@@ -53931,3 +53931,2153 @@ Started GET "/assets/user.jpg" for 127.0.0.1 at 2014-12-03 22:13:19 -0800
 
 
 Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-03 22:13:19 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/user.jpg" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-03 22:22:08 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 173ms (Views: 159.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 19:01:08 -0800
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-12-04 19:01:10 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered shared/_userstyle.html.erb (0.5ms)
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (35.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 48.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 19:01:10 -0800
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dpYEapZZrd/fflAcoHrNVjddn3vznlF9Z/VNkHswics=", "user"=>{"email"=>"spierp@hdcco.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'spierp@hdcco.com'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "remember_created_at" = ?, "updated_at" = ? WHERE "users"."id" = 7  [["remember_created_at", "2014-12-04 19:01:18.415907"], ["updated_at", "2014-12-04 19:01:18.416639"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 7[0m  [["current_sign_in_at", "2014-12-04 19:01:18.424118"], ["last_sign_in_at", "2014-12-04 19:01:18.424118"], ["sign_in_count", 5], ["updated_at", "2014-12-04 19:01:18.425144"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 118ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/user.jpg" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 19:01:18 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 19:02:22 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/user.jpg" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 19:03:08 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/user.jpg" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 19:03:38 -0800
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 19:09:04 -0800
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_userstyle.html.erb (0.3ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 19:09:04 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 19:09:08 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/user.jpg" for 127.0.0.1 at 2014-12-04 19:09:08 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_header.html.erb (23.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 152ms (Views: 140.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/user.jpg" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 20:59:01 -0800
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 21:00:14 -0800
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_userstyle.html.erb (0.3ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (22.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:00:14 -0800
+
+
+Started PATCH "/users" for 127.0.0.1 at 2014-12-04 21:00:33 -0800
+Processing by DeviseInvitable::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rweAhxRtk5jtyGVFeWsGtaHPaApCqmSZwDHTjGzqNZo=", "user"=>{"first_name"=>"Peter", "last_name"=>"Spier", "email"=>"spierp@hdcco.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa431309238 @tempfile=#<Tempfile:/var/folders/hq/8xqvzj8n0jl6d_084clfvyqr0000gn/T/RackMultipart20141204-1038-m2z8z8>, @original_filename="Screen Shot 2014-11-11 at 3.15.59 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"Screen Shot 2014-11-11 at 3.15.59 PM.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Update"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered shared/_userstyle.html.erb (0.3ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 723ms (Views: 16.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:00:34 -0800
+
+
+Started PATCH "/users" for 127.0.0.1 at 2014-12-04 21:00:49 -0800
+Processing by DeviseInvitable::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rweAhxRtk5jtyGVFeWsGtaHPaApCqmSZwDHTjGzqNZo=", "user"=>{"first_name"=>"Peter", "last_name"=>"Spier", "email"=>"spierp@hdcco.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa42b68f200 @tempfile=#<Tempfile:/var/folders/hq/8xqvzj8n0jl6d_084clfvyqr0000gn/T/RackMultipart20141204-1038-7i4zw2>, @original_filename="Screen Shot 2014-05-19 at 8.09.40 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"Screen Shot 2014-05-19 at 8.09.40 PM.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Update"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "image" = ?, "updated_at" = ? WHERE "users"."id" = 7  [["image", "Screen_Shot_2014-05-19_at_8.09.40_PM.png"], ["updated_at", "2014-12-04 21:00:51.594412"]]
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 57446ms
+
+Excon::Errors::SocketError (Broken pipe (Errno::EPIPE)):
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/openssl/buffering.rb:383:in `syswrite_nonblock'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/openssl/buffering.rb:383:in `write_nonblock'
+  excon (0.42.0) lib/excon/socket.rb:109:in `write'
+  excon (0.42.0) lib/excon/connection.rb:151:in `request_call'
+  excon (0.42.0) lib/excon/middlewares/mock.rb:47:in `request_call'
+  excon (0.42.0) lib/excon/middlewares/instrumentor.rb:22:in `request_call'
+  excon (0.42.0) lib/excon/middlewares/base.rb:15:in `request_call'
+  excon (0.42.0) lib/excon/middlewares/base.rb:15:in `request_call'
+  excon (0.42.0) lib/excon/middlewares/base.rb:15:in `request_call'
+  excon (0.42.0) lib/excon/connection.rb:232:in `request'
+  fog-core (1.25.0) lib/fog/core/connection.rb:63:in `request'
+  fog-xml (0.1.1) lib/fog/xml/connection.rb:9:in `request'
+  fog (1.25.0) lib/fog/aws/storage.rb:521:in `_request'
+  fog (1.25.0) lib/fog/aws/storage.rb:516:in `request'
+  fog (1.25.0) lib/fog/aws/requests/storage/put_object.rb:31:in `put_object'
+  fog (1.25.0) lib/fog/aws/models/storage/file.rb:208:in `save'
+  fog-core (1.25.0) lib/fog/core/collection.rb:50:in `create'
+  carrierwave (0.10.0) lib/carrierwave/storage/fog.rb:261:in `store'
+  carrierwave (0.10.0) lib/carrierwave/storage/fog.rb:80:in `store!'
+  carrierwave (0.10.0) lib/carrierwave/uploader/store.rb:59:in `block in store!'
+  carrierwave (0.10.0) lib/carrierwave/uploader/callbacks.rb:17:in `with_callbacks'
+  carrierwave (0.10.0) lib/carrierwave/uploader/store.rb:58:in `store!'
+  carrierwave (0.10.0) lib/carrierwave/mount.rb:375:in `store!'
+  carrierwave (0.10.0) lib/carrierwave/mount.rb:207:in `store_image!'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:221:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:221:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:215:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:215:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  activerecord (4.1.0) lib/active_record/callbacks.rb:302:in `create_or_update'
+  activerecord (4.1.0) lib/active_record/persistence.rb:103:in `save'
+  activerecord (4.1.0) lib/active_record/validations.rb:51:in `save'
+  activerecord (4.1.0) lib/active_record/attribute_methods/dirty.rb:21:in `save'
+  activerecord (4.1.0) lib/active_record/transactions.rb:268:in `block (2 levels) in save'
+  activerecord (4.1.0) lib/active_record/transactions.rb:329:in `block in with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:209:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:208:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:326:in `with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/transactions.rb:268:in `block in save'
+  activerecord (4.1.0) lib/active_record/transactions.rb:283:in `rollback_active_record_state!'
+  activerecord (4.1.0) lib/active_record/transactions.rb:267:in `save'
+  activerecord (4.1.0) lib/active_record/persistence.rb:232:in `block in update'
+  activerecord (4.1.0) lib/active_record/transactions.rb:329:in `block in with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:211:in `block in transaction'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:219:in `within_new_transaction'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:211:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:208:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:326:in `with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/persistence.rb:230:in `update'
+  devise (3.2.4) lib/devise/models/database_authenticatable.rb:70:in `update_with_password'
+  devise (3.2.4) app/controllers/devise/registrations_controller.rb:89:in `update_resource'
+  devise (3.2.4) app/controllers/devise/registrations_controller.rb:44:in `update'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 21:04:06 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_userstyle.html.erb (0.3ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (29.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+Completed 200 OK in 169ms (Views: 140.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:04:07 -0800
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 21:04:09 -0800
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_userstyle.html.erb (0.0ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:04:09 -0800
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 21:04:11 -0800
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_userstyle.html.erb (0.0ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:04:12 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (3.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/user.jpg" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 21:04:16 -0800
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 21:04:19 -0800
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_userstyle.html.erb (0.0ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:04:19 -0800
+
+
+Started PATCH "/users" for 127.0.0.1 at 2014-12-04 21:04:36 -0800
+Processing by DeviseInvitable::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rweAhxRtk5jtyGVFeWsGtaHPaApCqmSZwDHTjGzqNZo=", "user"=>{"first_name"=>"Peter", "last_name"=>"Spier", "email"=>"spierp@hdcco.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa27fc16960 @tempfile=#<Tempfile:/var/folders/hq/8xqvzj8n0jl6d_084clfvyqr0000gn/T/RackMultipart20141204-1099-4sjatn>, @original_filename="Screen Shot 2014-05-19 at 8.09.40 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"Screen Shot 2014-05-19 at 8.09.40 PM.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Update"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered shared/_userstyle.html.erb (0.3ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 2256ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:04:39 -0800
+
+
+Started PATCH "/users" for 127.0.0.1 at 2014-12-04 21:04:52 -0800
+Processing by DeviseInvitable::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rweAhxRtk5jtyGVFeWsGtaHPaApCqmSZwDHTjGzqNZo=", "user"=>{"first_name"=>"Peter", "last_name"=>"Spier", "email"=>"spierp@hdcco.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa27c0705a0 @tempfile=#<Tempfile:/var/folders/hq/8xqvzj8n0jl6d_084clfvyqr0000gn/T/RackMultipart20141204-1099-wpo6ji>, @original_filename="Screen Shot 2014-05-19 at 8.09.40 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"Screen Shot 2014-05-19 at 8.09.40 PM.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Update"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "image" = ?, "updated_at" = ? WHERE "users"."id" = 7[0m  [["image", "Screen_Shot_2014-05-19_at_8.09.40_PM.png"], ["updated_at", "2014-12-04 21:04:54.303092"]]
+  [1m[35m (1.8ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 7916ms
+
+Excon::Errors::SocketError (Broken pipe (Errno::EPIPE)):
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/openssl/buffering.rb:383:in `syswrite_nonblock'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/openssl/buffering.rb:383:in `write_nonblock'
+  excon (0.42.1) lib/excon/socket.rb:109:in `write'
+  excon (0.42.1) lib/excon/connection.rb:151:in `request_call'
+  excon (0.42.1) lib/excon/middlewares/mock.rb:47:in `request_call'
+  excon (0.42.1) lib/excon/middlewares/instrumentor.rb:22:in `request_call'
+  excon (0.42.1) lib/excon/middlewares/base.rb:15:in `request_call'
+  excon (0.42.1) lib/excon/middlewares/base.rb:15:in `request_call'
+  excon (0.42.1) lib/excon/middlewares/base.rb:15:in `request_call'
+  excon (0.42.1) lib/excon/connection.rb:232:in `request'
+  fog-core (1.25.0) lib/fog/core/connection.rb:63:in `request'
+  fog-xml (0.1.1) lib/fog/xml/connection.rb:9:in `request'
+  fog (1.25.0) lib/fog/aws/storage.rb:521:in `_request'
+  fog (1.25.0) lib/fog/aws/storage.rb:516:in `request'
+  fog (1.25.0) lib/fog/aws/requests/storage/put_object.rb:31:in `put_object'
+  fog (1.25.0) lib/fog/aws/models/storage/file.rb:208:in `save'
+  fog-core (1.25.0) lib/fog/core/collection.rb:50:in `create'
+  carrierwave (0.10.0) lib/carrierwave/storage/fog.rb:261:in `store'
+  carrierwave (0.10.0) lib/carrierwave/storage/fog.rb:80:in `store!'
+  carrierwave (0.10.0) lib/carrierwave/uploader/store.rb:59:in `block in store!'
+  carrierwave (0.10.0) lib/carrierwave/uploader/callbacks.rb:17:in `with_callbacks'
+  carrierwave (0.10.0) lib/carrierwave/uploader/store.rb:58:in `store!'
+  carrierwave (0.10.0) lib/carrierwave/mount.rb:375:in `store!'
+  carrierwave (0.10.0) lib/carrierwave/mount.rb:207:in `store_image!'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:221:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:221:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:215:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:215:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  activerecord (4.1.0) lib/active_record/callbacks.rb:302:in `create_or_update'
+  activerecord (4.1.0) lib/active_record/persistence.rb:103:in `save'
+  activerecord (4.1.0) lib/active_record/validations.rb:51:in `save'
+  activerecord (4.1.0) lib/active_record/attribute_methods/dirty.rb:21:in `save'
+  activerecord (4.1.0) lib/active_record/transactions.rb:268:in `block (2 levels) in save'
+  activerecord (4.1.0) lib/active_record/transactions.rb:329:in `block in with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:209:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:208:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:326:in `with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/transactions.rb:268:in `block in save'
+  activerecord (4.1.0) lib/active_record/transactions.rb:283:in `rollback_active_record_state!'
+  activerecord (4.1.0) lib/active_record/transactions.rb:267:in `save'
+  activerecord (4.1.0) lib/active_record/persistence.rb:232:in `block in update'
+  activerecord (4.1.0) lib/active_record/transactions.rb:329:in `block in with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:211:in `block in transaction'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:219:in `within_new_transaction'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:211:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:208:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:326:in `with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/persistence.rb:230:in `update'
+  devise (3.4.1) lib/devise/models/database_authenticatable.rb:74:in `update_with_password'
+  devise (3.4.1) app/controllers/devise/registrations_controller.rb:99:in `update_resource'
+  devise (3.4.1) app/controllers/devise/registrations_controller.rb:53:in `update'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:10:34 -0800
+
+
+Started GET "/users" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/user.jpg" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 21:10:37 -0800
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 21:10:41 -0800
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_userstyle.html.erb (0.0ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:10:41 -0800
+
+
+Started PATCH "/users" for 127.0.0.1 at 2014-12-04 21:10:53 -0800
+Processing by DeviseInvitable::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rweAhxRtk5jtyGVFeWsGtaHPaApCqmSZwDHTjGzqNZo=", "user"=>{"first_name"=>"Peter", "last_name"=>"Spier", "email"=>"spierp@hdcco.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa27fa27910 @tempfile=#<Tempfile:/var/folders/hq/8xqvzj8n0jl6d_084clfvyqr0000gn/T/RackMultipart20141204-1099-k638x0>, @original_filename="123.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"123.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Update"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "image" = ?, "updated_at" = ? WHERE "users"."id" = 7  [["image", "123.png"], ["updated_at", "2014-12-04 21:10:53.847934"]]
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 1193ms
+
+Excon::Errors::BadRequest (Expected(200) <=> Actual(400 Bad Request)
+excon.error.response
+  :body          => "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AuthorizationHeaderMalformed</Code><Message>The authorization header is malformed; the region 'us-east-1' is wrong; expecting 'us-west-1'</Message><Region>us-west-1</Region><RequestId>74176B47914A155F</RequestId><HostId>zRxK9SpuFBJpn1YIZPsRzVko7WOtvqx+vd6mjPG/b+woaWxpNF4FEj8jKpaNaqgW</HostId></Error>"
+  :headers       => {
+    "Connection"       => "close"
+    "Content-Type"     => "application/xml"
+    "Date"             => "Fri, 05 Dec 2014 05:10:53 GMT"
+    "Server"           => "AmazonS3"
+    "x-amz-id-2"       => "zRxK9SpuFBJpn1YIZPsRzVko7WOtvqx+vd6mjPG/b+woaWxpNF4FEj8jKpaNaqgW"
+    "x-amz-request-id" => "74176B47914A155F"
+  }
+  :local_address => "10.0.1.65"
+  :local_port    => 49762
+  :reason_phrase => "Bad Request"
+  :remote_ip     => "54.231.233.90"
+  :status        => 400
+):
+  excon (0.42.1) lib/excon/middlewares/expects.rb:6:in `response_call'
+  excon (0.42.1) lib/excon/middlewares/response_parser.rb:8:in `response_call'
+  excon (0.42.1) lib/excon/connection.rb:365:in `response'
+  excon (0.42.1) lib/excon/connection.rb:235:in `request'
+  fog-core (1.25.0) lib/fog/core/connection.rb:63:in `request'
+  fog-xml (0.1.1) lib/fog/xml/connection.rb:9:in `request'
+  fog (1.25.0) lib/fog/aws/storage.rb:521:in `_request'
+  fog (1.25.0) lib/fog/aws/storage.rb:516:in `request'
+  fog (1.25.0) lib/fog/aws/requests/storage/put_object.rb:31:in `put_object'
+  fog (1.25.0) lib/fog/aws/models/storage/file.rb:208:in `save'
+  fog-core (1.25.0) lib/fog/core/collection.rb:50:in `create'
+  carrierwave (0.10.0) lib/carrierwave/storage/fog.rb:261:in `store'
+  carrierwave (0.10.0) lib/carrierwave/storage/fog.rb:80:in `store!'
+  carrierwave (0.10.0) lib/carrierwave/uploader/store.rb:59:in `block in store!'
+  carrierwave (0.10.0) lib/carrierwave/uploader/callbacks.rb:17:in `with_callbacks'
+  carrierwave (0.10.0) lib/carrierwave/uploader/store.rb:58:in `store!'
+  carrierwave (0.10.0) lib/carrierwave/mount.rb:375:in `store!'
+  carrierwave (0.10.0) lib/carrierwave/mount.rb:207:in `store_image!'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:221:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:221:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:215:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:215:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  activerecord (4.1.0) lib/active_record/callbacks.rb:302:in `create_or_update'
+  activerecord (4.1.0) lib/active_record/persistence.rb:103:in `save'
+  activerecord (4.1.0) lib/active_record/validations.rb:51:in `save'
+  activerecord (4.1.0) lib/active_record/attribute_methods/dirty.rb:21:in `save'
+  activerecord (4.1.0) lib/active_record/transactions.rb:268:in `block (2 levels) in save'
+  activerecord (4.1.0) lib/active_record/transactions.rb:329:in `block in with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:209:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:208:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:326:in `with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/transactions.rb:268:in `block in save'
+  activerecord (4.1.0) lib/active_record/transactions.rb:283:in `rollback_active_record_state!'
+  activerecord (4.1.0) lib/active_record/transactions.rb:267:in `save'
+  activerecord (4.1.0) lib/active_record/persistence.rb:232:in `block in update'
+  activerecord (4.1.0) lib/active_record/transactions.rb:329:in `block in with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:211:in `block in transaction'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:219:in `within_new_transaction'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/database_statements.rb:211:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:208:in `transaction'
+  activerecord (4.1.0) lib/active_record/transactions.rb:326:in `with_transaction_returning_status'
+  activerecord (4.1.0) lib/active_record/persistence.rb:230:in `update'
+  devise (3.4.1) lib/devise/models/database_authenticatable.rb:74:in `update_with_password'
+  devise (3.4.1) app/controllers/devise/registrations_controller.rb:99:in `update_resource'
+  devise (3.4.1) app/controllers/devise/registrations_controller.rb:53:in `update'
+  actionpack (4.1.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.0) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/mapper.rb:45:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/spierp/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/spierp/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 21:12:22 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_userstyle.html.erb (0.3ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (25.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+Completed 200 OK in 195ms (Views: 153.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:12:23 -0800
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_userstyle.html.erb (0.4ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:12:26 -0800
+
+
+Started PATCH "/users" for 127.0.0.1 at 2014-12-04 21:12:36 -0800
+Processing by DeviseInvitable::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rweAhxRtk5jtyGVFeWsGtaHPaApCqmSZwDHTjGzqNZo=", "user"=>{"first_name"=>"Peter", "last_name"=>"Spier", "email"=>"spierp@hdcco.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fc3388ca4a8 @tempfile=#<Tempfile:/var/folders/hq/8xqvzj8n0jl6d_084clfvyqr0000gn/T/RackMultipart20141204-1191-17k258o>, @original_filename="123.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"123.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Update"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "image" = ?, "updated_at" = ? WHERE "users"."id" = 7  [["image", "123.png"], ["updated_at", "2014-12-04 21:12:36.774021"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 2666ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 21:12:38 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 21:26:40 -0800
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 21:26:43 -0800
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_userstyle.html.erb (0.0ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:26:43 -0800
+
+
+Started PATCH "/users" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+Processing by DeviseInvitable::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rweAhxRtk5jtyGVFeWsGtaHPaApCqmSZwDHTjGzqNZo=", "user"=>{"first_name"=>"Peter", "last_name"=>"Spier", "email"=>"spierp@hdcco.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]"}, "commit"=>"Update"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 96ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:48 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:49 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:49 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:49 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:49 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 21:26:49 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 21:26:49 -0800
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-12-04 21:26:51 -0800
+Processing by DeviseInvitable::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_userstyle.html.erb (0.0ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blocks.png" for 127.0.0.1 at 2014-12-04 21:26:51 -0800
+
+
+Started PATCH "/users" for 127.0.0.1 at 2014-12-04 21:27:04 -0800
+Processing by DeviseInvitable::RegistrationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rweAhxRtk5jtyGVFeWsGtaHPaApCqmSZwDHTjGzqNZo=", "user"=>{"first_name"=>"Peter", "last_name"=>"Spier", "email"=>"spierp@hdcco.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "current_password"=>"[FILTERED]", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fc337818808 @tempfile=#<Tempfile:/var/folders/hq/8xqvzj8n0jl6d_084clfvyqr0000gn/T/RackMultipart20141204-1191-iq6qqn>, @original_filename="pearls.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"user[image]\"; filename=\"pearls.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Update"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "image" = ?, "updated_at" = ? WHERE "users"."id" = 7[0m  [["image", "pearls.png"], ["updated_at", "2014-12-04 21:27:06.337129"]]
+  [1m[35m (3.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 9808ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 7  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/spinner.css?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:13 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/spin.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-12-04 21:27:14 -0800
