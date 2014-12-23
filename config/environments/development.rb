@@ -20,8 +20,9 @@ Blanktemplate::Application.configure do
   config.active_support.deprecation = :log
 
   #SMTP
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
+  #config.action_mailer.delivery_method = :smtp
+  #config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
+  config.action_mailer.delivery_method = :letter_opener
 
   # Raise an error on page load if there are pending migrations
   config.active_record.migration_error = :page_load
