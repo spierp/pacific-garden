@@ -67,7 +67,7 @@ Blanktemplate::Application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   #devise
-  config.action_mailer.default_url_options = { :host => 'pacific-garden.herokuapp.com' }
+  #config.action_mailer.default_url_options = { :host => 'pacific-garden.herokuapp.com' }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found).
@@ -86,7 +86,7 @@ Blanktemplate::Application.configure do
   config.to_prepare { Devise::RegistrationsController.force_ssl }
   config.to_prepare { Devise::PasswordsController.force_ssl }
   
-    config.action_mailer.default_url_options = { :host => 'hdcco.com' }
+    config.action_mailer.default_url_options = { :host => 'pacific-garden.herokuapp.com' }
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
       :address        => 'smtp.sendgrid.net',
